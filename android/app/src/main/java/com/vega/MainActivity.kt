@@ -1,4 +1,4 @@
-package com.vega
+package com.youplex
 import com.zoontek.rnbootsplash.RNBootSplash
 
 import android.os.Build

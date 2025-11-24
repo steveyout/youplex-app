@@ -60,6 +60,15 @@ jobs:
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
 
+  # Source - https://stackoverflow.com/a/75127891
+  # Posted by Pieter Svenson, modified by community. See post 'Timeline' for change history
+  # Retrieved 2025-11-24, License - CC BY-SA 4.0
+
+    name: Create Google Services JSON File
+    env:
+      GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
+      run: echo $GOOGLE_SERVICES_JSON | base64 -di > ./google-services.json
+
   build-android:
     needs: check_for_changes
     if: ${{ needs.check_for_changes.outputs.has_changes == 'true' }}
