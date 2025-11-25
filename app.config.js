@@ -129,7 +129,7 @@ module.exports = () => {
         allowBackup: true,
         icon: './assets/icon.png',
         adaptiveIcon: {
-          foregroundImage: './assets/adaptive_icon.png',
+          foregroundImage: './assets/icon.png',
           backgroundColor: '#000000',
         },
         launchMode: 'singleTask',

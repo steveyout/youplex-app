@@ -7,7 +7,7 @@ export const FLAGS = {
   ITALY: 'https://utfs.io/f/ImOWJajUmXfynpGlTaXrTMAELcs2W76PyY4IRJVBXCHOofa5',
 };
 
-export const downloadFolder = RNFS.DownloadDirectoryPath + '/vega';
+export const downloadFolder = RNFS.DownloadDirectoryPath + '/youplex';
 
 export const themes: {name: string; color: string}[] = [
   {
@@ -49,7 +49,7 @@ export const themes: {name: string; color: string}[] = [
 ];
 
 export const socialLinks = {
-  github: 'https://github.com/Zenda-Cross/vega-app',
+  github: 'https://github.com/steveyout/youplex-app',
   discord: 'https://discord.gg/cr42m6maWy',
   sponsor: 'https://github.com/sponsors/Zenda-Cross',
 };
