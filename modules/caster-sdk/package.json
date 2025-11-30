@@ -1,0 +1,10 @@
+{
+  "name": "caster-sdk",
+  "version": "1.0.0",
+  "description": "CasterSDK React Native wrapper for background monetization",
+  "main": "index.ts",
+  "scripts": {},
+  "keywords": ["react-native", "caster", "sdk", "monetization"],
+  "author": "",
+  "license": "MIT"
+}

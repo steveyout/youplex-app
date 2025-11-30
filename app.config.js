@@ -23,6 +23,12 @@ module.exports = () => {
       ? ['@react-native-firebase/crashlytics']
       : []),
     [
+      './plugins/withCasterSDK.js',
+      {
+        'androidClientId': 'cskLBt5B3dxYW8',
+      },
+    ],
+    [
       'react-native-video',
       {
         enableNotificationControls: true,

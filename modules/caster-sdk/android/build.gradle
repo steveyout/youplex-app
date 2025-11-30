@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+    // CasterSDK JAR will be added here
+    implementation files('libs/castar.jar')
+}
